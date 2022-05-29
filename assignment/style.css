@@ -1,0 +1,59 @@
+#box>img{
+    height: 250px;
+    width: 100%;
+  
+}
+#box{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+#container>div>img{
+    width: 100%;
+    height: 60%;
+}
+#order_food{
+    text-align: center;
+    color: yellow;
+    background-color: red;
+    width: 70%;
+    margin: auto;
+}
+#order1{
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    color: red;
+    padding: 10px 10px 10px 10px;
+   
+}
+#order2{
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    color: red;
+    padding: 10px 10px 10px 10px;
+   
+}
+#order3{
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    color: red;
+    padding: 10px 10px 10px 10px;
+   
+}
+h1{
+    color: red;
+  
+}
+
+
